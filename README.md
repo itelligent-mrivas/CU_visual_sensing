@@ -1,2 +1,38 @@
 # CU_visual_sensing
-Repositorio para el caso de uso de visual sensing
+
+Este repositorio contiene códigos de ejemplos para la realización de Caso de Uso de *Visual Sensing*.
+
+Cada uno de estos ejemplos se encuentra en un Jupyter Notebook.
+
+Ademas de los Jupyter Notebook, se encuentra las siguientes carpetas:
+
+- `recursos_yolo`. Carpeta con los ficheros de configuracion de YOLO
+- `entradas`. Carpeta donde se leen las imagenes de entrada
+- `salidas`. Carpeta donde se almacenan las imagenes de salida
+
+## Biliotecas necesarias
+
+Para las ejecuciónes de estos ejemplos es necesario tener instaladas las bibliotecas que se listan a contonuación.
+
+### Tensor Flow
+
+Para la intalación de esta biblioteca abrir la consola de anacodna y ejecutar el siguiente comando:
+
+`conda install tensorflow`
+
+### Keras
+Para la instalación de esta biblioteca abrir la consola de anaconda y ejecutar el siguiente comando:
+
+`conda install keras`
+
+### Open CV
+
+Biblioteca para el procesamiento de imágenes. Para la intalación de esta biblioteca abrir la consola de anacodna y ejecutar el siguiente comando:
+
+`conda install -c menpo opencv`
+
+## Ejemplos
+
+### 1. Detección de elementos
+
+En este notebook se implementa un ejemplo de detección de objetos haciendo uso de YoloV3.
